@@ -8,7 +8,7 @@
 #SBATCH --cpus-per-task=8                # CPU cores per MPI process
 #SBATCH --mem-per-cpu=2G                 # host memory per CPU core
 #SBATCH --time=0-12:00:00                # time (DD-HH:MM:SS)
-#SBATCH --mail-user=myemail@gmail.com    # receive mail notifications
+#SBATCH --mail-user=oumaliaymen@gmail.com    # receive mail notifications
 #SBATCH --mail-type=ALL
 
 # Check GPU on orchestrating node
