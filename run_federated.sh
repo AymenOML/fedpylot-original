@@ -15,11 +15,13 @@ nvidia-smi
 
 # Load modules
 module purge
+module load StdEnv/2020
 module load python/3.9.6 scipy-stack
 module load openmpi/4.0.3
 module load gcc/9.3.0
 module load opencv/4.6.0
 module load mpi4py
+
 
 # Load pre-existing virtual environment
 source ~/venv-py39-fl/bin/activate
