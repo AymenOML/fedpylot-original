@@ -4,7 +4,6 @@
 
 #SBATCH --nodes=11                       # total number of nodes (1 server and 10 client nodes)
 #SBATCH --gpus-per-node=v100l:1          # total of 11 GPUs
-#SBATCH --ntasks-per-gpu=1               # 1 MPI process is launched per node
 #SBATCH --cpus-per-task=8                # CPU cores per MPI process
 #SBATCH --mem-per-cpu=2G                 # host memory per CPU core
 #SBATCH --time=0-12:00:00                # time (DD-HH:MM:SS)
