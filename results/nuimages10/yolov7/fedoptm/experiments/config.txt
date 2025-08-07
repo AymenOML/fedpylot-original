@@ -1,0 +1,16 @@
+nrounds: 30
+epochs: 5
+server opt: fedavgm
+server learning rate: 1.0
+fedavgm - beta: 0.1
+architecture: yolov7
+weights: weights/yolov7/yolov7_training.pt
+data: data/nuimages10.yaml
+batch size (train): 32
+batch size (eval): 32
+img: 640
+conf: 0.001
+iou: 0.65
+cfg: yolov7/cfg/training/yolov7.yaml
+hyp: data/hyps/hyp.scratch.clientopt.nuimages.yaml
+workers: 8
